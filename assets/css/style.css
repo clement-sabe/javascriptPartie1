@@ -1,0 +1,44 @@
+header {
+    background-color: black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.modal-btn {
+    width: 220px;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: white 1px;
+}
+
+
+.text-rose {
+    color: deeppink;
+}
+
+.text-bleu {
+    color: blue;
+}
+
+.text-violet {
+    color: purple;
+}
+
+.text-gras {
+    font-weight: bold;
+}
+
+.text-italique {
+    font-style: italic;
+}
+
+.fa-js-square {
+    color: yellow;
+    font-size: 2em;
+}
