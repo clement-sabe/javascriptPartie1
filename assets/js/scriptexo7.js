@@ -3,17 +3,17 @@ function calculer() {
     var age = document.getElementById('age').value;
     var result;
 
-    if (age >= 18) {
-        result=('Vous êtes majeur !');
-    } 
-    else if (age > 120) {
-        result=('ça sent le sapin !');
+    if(age < 18 && age > 0)      // Condition pour âge compris entre 0 et 18 ans
+    {
+       alert('Vous n\'êtes pas majeur');
     }
-    else if (age < 0) {
-        result=('tu ments !');
+  else if (age >= 18 && age < 125)   // Condition pour âge compris entre 18 et 125 ans        
+    {
+       alert('Vous êtes majeur');
     }
-    else {
-        result =('Vous êtes mineur !')
+  else                        // Quand les conditions ne s'appliquent pas
+    {
+       alert('Tu es un menteur !!!!');
     }
-    window.alert(result);
+ 
 }
